@@ -1,0 +1,16 @@
+Bienvenido a CMS Social Blog.
+
+Instrucciones de instalación de 2 minutos.
+*****************************************************************
+
+1. Crear una base de datos en MySQL
+2. Editar el archivo config.php (con los valores establecidos en su servidor de base de datos) situado con la carpeta config.
+3. Listo....!
+
+
+--------------
+Desarrollado por: Alejandro González Reyes
+Co-Fundador de: phpconestilo
+Email: alejandro.gonzalez.reyes@outlook.com
+Proyecto: Maestría en Comunicación con Medios Virtuales
+Materia: Sitios Web Dinámicos con PHP y MySQL
