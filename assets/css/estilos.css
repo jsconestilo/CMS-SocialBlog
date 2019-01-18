@@ -1,0 +1,265 @@
+/*
+#87898C
+#CC3399
+#64ABD1
+#F7F7F7
+*/
+@font-face{
+    font-family: "MyriadProCond";
+	src: url("../fonts/MyriadPro-Cond.eot");
+	src: url("../fonts/MyriadPro-Cond.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/MyriadPro-Cond.ttf") format("truetype"),
+		 url("../fonts/MyriadPro-Cond.svg") format("svg"),
+		 url("../fonts/MyriadPro-Cond.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+body, html{
+    background-color: #F7F7F7;
+    font-size: 16px;
+    font-family: "MyriadProCond", Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    color: #222;
+}
+header{
+    margin: 0 auto;
+    padding: 1.5em 0;
+    background-color: #CC3399;
+    color: #fff;
+    border-bottom: 15px solid #64ABD1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header #logotipo, header #loggin{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+header #logotipo, #menuCategorias ul{
+    text-align: left;
+    margin-right: -3px;
+}
+header #loggin, #menuCategorias form{
+    text-align: right;
+}
+#loggin div{
+    display: inline-block;
+}
+#loggin div label{
+    display: block;
+    cursor: pointer;
+    text-align: left;
+}
+#loggin div:nth-child(2), #menuCategorias form input[type="text"]{
+    margin: 0 .2em;
+}
+#loggin div input, #menuCategorias form input{
+    padding: .3em;
+    border-radius: .2em;
+}
+#loggin div input[type="submit"]{
+    cursor: pointer;
+}
+#imgCabecera{
+    width: 70%;
+    margin: 0 auto;
+}
+#imgCabecera img{
+    max-width: 100%;
+    display: block;
+}
+#menuCategorias, #menuAdministrador{
+    background-color: #222;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    padding: .5em 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#menuCategorias ul, #menuCategorias form{
+    display: inline-block;
+    width: 50%;
+}
+#menuCategorias li, #menuAdministrador li{
+    display: inline-block;
+    margin-right: -3px;
+}
+#menuCategorias li a, #menuAdministrador li a{
+    padding: 0 1em;
+    display: block;
+    color: #fff;
+    border-right: 1px solid #64ABD1;
+}
+#menuCategorias li:last-child a, #menuAdministrador li:last-child a{
+    border-right: 0;
+}
+#menuCategorias a:hover, #menuAdministrador a:hover{
+    color: #f60;
+}
+#menuCategorias form label{
+    cursor: pointer;
+}
+#menuCategorias form input[type="submit"]{
+    margin-right: 1.2em;
+    cursor: pointer;
+    padding: .3em 1em;
+}
+
+
+#publicaciones{
+    width: 70%;
+    margin: 1em auto;
+    border-radius: .3em;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 .5em #222;
+    box-shadow: 0 0 .5em #87898C;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.5em;
+}
+#publicaciones h2{
+    color: #f60;
+    text-transform: capitalize;
+    margin-bottom: .5em;
+}
+#publicaciones h2 span{
+    color: #64ABD1;
+}
+#publicaciones article h3{
+    text-transform: capitalize;
+    margin-top: .8em;
+}
+#publicaciones article p{
+    text-align: justify;
+    line-height: 1.4em;
+    text-transform: lowercase;
+}
+#publicaciones article #completo{
+    text-indent: 1.5em;
+    margin-bottom: 2em;
+}
+#publicaciones article #completo:first-letter{
+    text-transform: uppercase;
+}
+#publicaciones article a{
+    padding: 0 .2em;
+    color: #CC3399;
+    display: inline-block;
+    border-radius: .2em;
+}
+#publicaciones a:hover{
+    color: #64ABD1;
+}
+#publicaciones article .menu_edicion a{
+    padding: 0 1em;
+    color: #fff;
+    background-color: #87898C;
+}
+#publicaciones article .menu_edicion a:first-letter{
+    text-transform: uppercase;
+}
+#publicaciones article .menu_edicion a:nth-child(2){
+    margin: 0 .2em;
+}
+#publicaciones article .menu_edicion a:hover{
+    background-color: #f60;
+}
+#publicaciones #nuevo_registro{
+    color: #14b0ff;
+}
+#publicaciones #nuevo_registro:hover{
+    color: #009E96;
+}
+
+#publicaciones #controles_administrativos, #publicaciones #contenido_administrativo{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -3px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+   /* border: 1px dashed red;*/
+
+}
+
+footer{
+    border-top: 15px solid #64ABD1;
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: #CC3399;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer div{
+    text-align: left;
+    display: inline-block;
+    margin-right: -3px;
+    vertical-align: bottom;
+    width: 35%;
+}
+footer div:last-child{
+    text-align: right;
+}
+
+#nuevo_usuario form label, #nueva_categoria form label, #nueva_publicacion form label,
+#editar_usuario form label, #editar_categoria form label, #editar_publicacion form label,
+#nueva_instalacion form label{
+    display: block;
+}
+#nuevo_usuario form input[type="text"], #nueva_categoria form input[type="text"], #nueva_publicacion form input[type="text"],
+#editar_usuario form input[type="text"], #nueva_instalacion form input[type="text"], #editar_categoria form input[type="text"], #editar_publicacion form input[type="text"], 
+#nuevo_usuario form input[type="email"], #nueva_instalacion form input[type="email"], #editar_usuario form input[type="email"],
+#nuevo_usuario form input[type="password"], #editar_usuario form input[type="password"], #nueva_instalacion form input[type="password"],
+#nueva_publicacion form select, #nueva_publicacion form textarea, #editar_publicacion form select, #editar_publicacion form textarea {
+    padding: .3em;
+    border: 1px solid #87898C;
+    border-radius: .2em;
+    width: 95%;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+#nueva_instalacion form input[type="text"], #nueva_instalacion form input[type="email"], #nueva_instalacion form input[type="password"]{
+    width: 40%;
+}
+#nueva_publicacion form select, #editar_publicacion form select{
+    width: 50%;
+    display: block;
+}
+#nueva_publicacion form textarea, #editar_publicacion form textarea{
+    height: 100px;
+    resize: none;
+}
+#nuevo_usuario form input[type="submit"], #nueva_publicacion form input[type="submit"],
+#nueva_categoria form input[type="submit"], #nueva_instalacion form input[type="submit"],
+#editar_usuario form input[type="submit"],
+#editar_categoria form input[type="submit"], #editar_publicacion form input[type="submit"]{
+    padding: .5em;
+    background-color: #64ABD1;
+    border-radius: .2em;
+    color: #fff;
+    cursor: pointer;
+}
