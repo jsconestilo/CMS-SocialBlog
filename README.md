@@ -23,3 +23,10 @@
 ### Instrucciones de Instalación
 
 Revisar el archivo adjunto leéme.txt
+
+### Enlace Proyecto en Producción
+
+[http://cms-socialblog.xpsmart.com.mx/](http://cms-socialblog.xpsmart.com.mx/)
+
+* Usuario: jsconestilo@gmail.com
+* Password: 123456
